@@ -12,5 +12,7 @@ public class Comida {
         System.out.println("Hello World!");
         
         Scanner Teclado = new Scanner(System.in);
+        System.out.println("Escribe tu nombre: ");
+        String nom = Teclado.nextLine();
     }
 }
